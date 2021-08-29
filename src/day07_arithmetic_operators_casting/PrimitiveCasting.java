@@ -13,5 +13,15 @@ public class PrimitiveCasting {
         System.out.println(lNum1);
         //TODO: continue more practice on Casting.
 
+
+
+        int num2 = 123;
+        byte b2 = (byte) num2;
+        int getNum2 = num2;
+        double nums = (double) b2 + (double) getNum2;
+
+        System.out.println(nums * 2 + getNum2 - num2);
+        System.out.println((nums * 4) + getNum2 + 546 + (nums / 5 % 2));
+
     }
 }
