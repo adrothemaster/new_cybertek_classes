@@ -1,4 +1,4 @@
-package iterviewQuestions;
+package MjsClassPracticeAll;
 
 public class smallestLargestNumsInArray {
 

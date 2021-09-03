@@ -27,8 +27,11 @@ public class IteratorExample {
         names.add("mj");
         names.add("john");
         names.add("Pavrin");
+        System.out.println(names);
+        System.out.println();
 
         Iterator<String> iterator = names.iterator();
+        System.out.println("iterator = " + iterator);
 
         while (iterator.hasNext()){
 
@@ -37,6 +40,10 @@ public class IteratorExample {
 
             if(currentName.length() < 3 || currentName.startsWith("j")){
                 iterator.remove();
+
+
+
+
             }
 
         }
