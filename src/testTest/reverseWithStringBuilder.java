@@ -1,6 +1,6 @@
 package testTest;
 
-public class reverseWithStringBuilder {
+public class  reverseWithStringBuilder {
     public static void main(String[] args) {
 
         String word = "hello mister";
