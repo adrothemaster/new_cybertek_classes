@@ -7,7 +7,7 @@ public class ConcatTwoArrays {
     public static void main(String[] args) {
         int[] a = {2,1,85,7,25,36};
         int[] b = {29,20,2,1,85,7,25,36};
-        System.out.println(Arrays.toString(concatTwoArrays(a, b)));
+        System.out.println(Arrays.toString(concatTwoArrays(b, a)));
     }
 
 
