@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day50_inheritance.overriding</OriginalElement>
+  <nodes>
+    <node x="219.0" y="208.0">day50_inheritance.overriding.Dog</node>
+    <node x="0.0" y="374.0">day50_inheritance.overriding.AnimalObjects</node>
+    <node x="0.0" y="208.0">day50_inheritance.overriding.Cat</node>
+    <node x="109.5" y="0.0">day50_inheritance.overriding.Animal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day50_inheritance.overriding.Dog" target="day50_inheritance.overriding.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="318.5" y="183.0" />
+      <point x="209.0" y="183.0" />
+      <point x="0.0" y="79.0" />
+    </edge>
+    <edge source="day50_inheritance.overriding.Cat" target="day50_inheritance.overriding.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="99.5" y="183.0" />
+      <point x="209.0" y="183.0" />
+      <point x="0.0" y="79.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.159733838964169" showDependencies="false" x="248.2646803980175" y="269.10543943642597" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
