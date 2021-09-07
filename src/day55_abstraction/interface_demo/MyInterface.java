@@ -8,7 +8,11 @@ interface MyInterface2 {
 
 }
 
-class MyClass implements MyInterface, MyInterface2 {
+class MyClass implements MyInterface,
+
+
+
+        MyInterface2 {
 
     @Override
     public void learn() {
