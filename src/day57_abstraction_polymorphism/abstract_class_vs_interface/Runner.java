@@ -10,7 +10,8 @@ public class Runner {
         InterfaceA.staticMethodE("wooden spoon");
         //ConcreteA.staticMethodE("hello"); -> staticMethodE only works with interface.staticMethodE
         ConcreteA.staticMethodC();
-
+        System.out.println(InterfaceB.MAX_COUNT);
         AbstractA.staticMethodC();
+
     }
 }
