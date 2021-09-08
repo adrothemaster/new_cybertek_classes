@@ -12,6 +12,6 @@ public class Runner {
         ConcreteA.staticMethodC();
         System.out.println(InterfaceB.MAX_COUNT);
         AbstractA.staticMethodC();
-
+        System.out.println(AbstractB.LANGUAGE);
     }
 }
