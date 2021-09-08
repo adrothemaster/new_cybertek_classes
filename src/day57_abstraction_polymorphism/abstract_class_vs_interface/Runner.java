@@ -14,5 +14,6 @@ public class Runner {
         AbstractA.staticMethodC();
         System.out.println(AbstractB.LANGUAGE);
         System.out.println(AbstractB.count);
+        System.out.println(AbstractA.count + InterfaceB.MAX_COUNT);
     }
 }
