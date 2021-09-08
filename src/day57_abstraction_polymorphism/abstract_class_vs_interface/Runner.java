@@ -20,5 +20,10 @@ public class Runner {
         concrete.absMethodD(55);
 
         System.out.println(InterfaceA.TYPE);
+        concrete.absMethodD(  100 / 5 * (5000 + 5000 - 1));
+
+
+
+
     }
 }
