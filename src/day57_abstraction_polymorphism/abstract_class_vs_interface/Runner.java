@@ -18,5 +18,7 @@ public class Runner {
 
         ConcreteA concrete = new ConcreteA();
         concrete.absMethodD(55);
+
+        System.out.println(InterfaceA.TYPE);
     }
 }
