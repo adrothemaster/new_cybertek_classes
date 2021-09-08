@@ -7,6 +7,7 @@ public class ArrayUniqueIntegersThatSumToZero {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(Solution(10)));
         System.out.println(Arrays.toString(Solution(5)));
+        System.out.println(Arrays.toString(Solution(100)));
 
     }
     public static int[] Solution(int N){
