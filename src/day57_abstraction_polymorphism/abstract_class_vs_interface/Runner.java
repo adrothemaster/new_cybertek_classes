@@ -10,5 +10,7 @@ public class Runner {
         InterfaceA.staticMethodE("wooden spoon");
         //ConcreteA.staticMethodE("hello"); -> staticMethodE only works with interface.staticMethodE
         ConcreteA.staticMethodC();
+
+        AbstractA.staticMethodC();
     }
 }
