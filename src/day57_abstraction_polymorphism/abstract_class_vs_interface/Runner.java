@@ -15,5 +15,8 @@ public class Runner {
         System.out.println(AbstractB.LANGUAGE);
         System.out.println(AbstractB.count);
         System.out.println(AbstractA.count + InterfaceB.MAX_COUNT);
+
+        ConcreteA concrete = new ConcreteA();
+        concrete.absMethodD(55);
     }
 }
