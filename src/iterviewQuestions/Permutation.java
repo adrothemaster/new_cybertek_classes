@@ -1,16 +1,12 @@
 package iterviewQuestions;
 
 
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
-
-public class ArrayPermutationCombinations {
+public class Permutation {
     public static void main(String[] args)
     {
         String str = "@#$%^&*";
         int n = str.length();
-        ArrayPermutationCombinations permutation = new ArrayPermutationCombinations();
+        Permutation permutation = new Permutation();
         permutation.permute(str, 0, n - 1);
     }
 
