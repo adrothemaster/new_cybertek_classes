@@ -6,30 +6,47 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class ArrayPermutationCombinations {
-    public static void main(String[] args) {
-        /**
-         * TODO find how to properly print this!
-         */
-        char[] chars = {'i','i','a','a'};
-        printPermutation(chars);
+    public static void main(String[] args)
+    {
+        String str = "@#$%^&*";
+        int n = str.length();
+        ArrayPermutationCombinations permutation = new ArrayPermutationCombinations();
+        permutation.permute(str, 0, n - 1);
     }
-    public static void printPermutation(char[] ch){
-        for (String s: Permutation(ch)) System.out.println(Arrays.toString(s.toCharArray()));
-    }
-    public static Set<String> Permutation(char[] ch){
-        String str = Arrays.toString(ch).replace("," , "").replace("[" , "")
-                .replace("]" , "");
-        Set<String> set = new LinkedHashSet<>();
-        if (str.length() == 1)
-            set.add(str);
-            else
-            for (int i = 0; i < str.length(); i++) {
-                String a3 = str.substring(0,i) +
-                        str.substring(i + 1);
-                char[] ch2 = a3.toCharArray();
-                for (String permutation: Permutation(ch2))
-                    set.add(str.charAt(i) + permutation);
+
+    /**
+     * permutation function
+     * @param str string to calculate permutation for
+     * @param l starting index
+     * @param r end index
+     */
+    private void permute(String str, int l, int r)
+    {
+        if (l == r)
+            System.out.println(str);
+        else {
+            for (int i = l; i <= r; i++) {
+                str = swap(str, l, i);
+                permute(str, l + 1, r);
+                str = swap(str, l, i);
             }
-            return set;
+        }
+    }
+
+    /**
+     * Swap Characters at position
+     * @param a string value
+     * @param i position 1
+     * @param j position 2
+     * @return swapped string
+     */
+    public String swap(String a, int i, int j)
+    {
+        char temp;
+        char[] charArray = a.toCharArray();
+        temp = charArray[i];
+        charArray[i] = charArray[j];
+        charArray[j] = temp;
+        return String.valueOf(charArray);
     }
 }
