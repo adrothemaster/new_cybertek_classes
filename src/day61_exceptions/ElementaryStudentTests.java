@@ -5,7 +5,7 @@ public class ElementaryStudentTests {
         try {
             ElementaryStudent el1 = new ElementaryStudent();
             el1.setName("Bob");
-            el1.setAge(1);
+            el1.setAge(7);
             System.out.println(el1.toString());
         } catch(Exception e) {
             e.printStackTrace(); //print error stack trace and continue. does not stop code
