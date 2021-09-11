@@ -1,4 +1,4 @@
-package OfficeHoursMyExamples;
+package OfficeHoursMyExamples.May3rd;
 
 import java.util.ArrayList;
 import java.util.Arrays;
