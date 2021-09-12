@@ -7,7 +7,7 @@ public class ReverseOnlyLetters {
 
         Scanner in = new Scanner(System.in);
        // System.out.println(reverseNoSpec(in.next()));
-        System.out.println(reverseNoSpec("edcba!$"));
+        System.out.println(reverseNoSpec("abcdefghi!$"));
         // e d c b A
 
     }
